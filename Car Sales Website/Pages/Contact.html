@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knocknagoshel car sales</title>
+    <link rel="stylesheet" href="../style/styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="../Images/knock.png" alt="logo"></a>
+        <nav>
+            <ul class="nav">
+                <li><a href="Cars.html">CARS</a></li>
+                <li><a href="CarsParts.html">CAR PARTS</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner-area">
+        <div class="content-area">
+            <div class="content">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="contact-form">
+        <h1>fill out the form so that an employee of our company can contact you</h1>
+        <form action="mailto:Chriscol81@gmail.com" method="POST">
+          <label for="firstName">First name:</label>
+          <input type="text" id="firstName" name="Firstname" required>
+          <label for="lastName">Last name:</label>
+          <input type="text" id="lastName" name="Lastname" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="email">Phone Number:</label>
+          <input type="tel" id="phone" name="Phone Number" required>
+          <label for="query">What is your query in relation to?</label>
+          <select id="query" name="query">
+            <option
+            value="Cars">Cars</option>
+            <option
+            value="CarsParts">Cars Parts</option>
+            <option
+            value="Service">Service</option>
+            <option
+            value="Warranty">Warranty</option>
+            <option
+            value="Other">Other</option>
+          </select>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <input type="submit" value="Send">
+        </form>
+      </div>      
+
+    <a class="back-to-top" href="#top">back to top</a>
+</body>
+</html>
